@@ -89,8 +89,8 @@ Resources:
                 Provider: CodeStarSourceConnection
                 Version: '1'
               Configuration:
-                # ConnectionArn: 'arn:aws:codeconnections:eu-west-2:1234567890:connection/*' <----- UPDATE TO FULL CODECONNECTION ARN
-                # FullRepositoryId: 'cloudscaler/*' <----- UPDATE TO FULL REPOSITORY NAME
+                ConnectionArn: 'arn:aws:codeconnections:eu-west-2:586050444423:connection/bf5ce6c4-8166-4ced-b865-cd3eed089ca5'
+                FullRepositoryId: 'dwayneriley-cs/1st-lza-deployment'
                 BranchName: 'main'
                 DetectChanges: 'false'
                 OutputArtifactFormat: 'CODE_ZIP'
@@ -469,7 +469,7 @@ Resources:
               - codeconnections:UseConnection
               - codestar-connections:UseConnection
             Resource:
-              # - "arn:aws:codeconnections:eu-west-2:1234567890:connection/*"  <----- UPDATE TO FULL CODECONNECTION ARN
+              - "arn:aws:codeconnections:eu-west-2:586050444423:connection/bf5ce6c4-8166-4ced-b865-cd3eed089ca5"
 
   CodeBuildIAMRole:
     Type: AWS::IAM::Role
