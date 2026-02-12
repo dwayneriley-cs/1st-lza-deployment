@@ -29,5 +29,5 @@ workloadAccounts:
     organizationalUnit: Backups
   - name: Observability
     description: Observability is the cross-account monitoring account and AWS Health delegated admin. The account can access CloudWatch metrics and logs from source accounts for dashboarding a reporting purposes.
-    email: dwaynerileycloudscaler+elz-observabilityt@gmail.com
+    email: dwaynerileycloudscaler+elz-observability@gmail.com
     organizationalUnit: SharedServices
