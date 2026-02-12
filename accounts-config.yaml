@@ -10,6 +10,7 @@ mandatoryAccounts:
   - name: Audit
     description: The security audit account (also referred to as the audit account). Do not change the name field for this mandatory account. Note, the account name key does not need to match the AWS account name.
     email: dwaynerileycloudscaler+elz-audit@gmail.com
+    organizationalUnit: SecurityServices
 workloadAccounts:
   - name: SharedServices
     description: The SharedServices account contains the shared tooling services used across all tenant accounts, where Operations, Security, Infrastructure, and Finance teams build, deploy, and share resources and products across all the accounts in the organisation.
