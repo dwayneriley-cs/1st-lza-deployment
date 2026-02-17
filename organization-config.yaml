@@ -8,6 +8,7 @@ organizationalUnits:
   - name: PolicyStaging
   - name: Quarantine
   - name: Sandbox
+  - name: Security  
   - name: SecurityServices
   - name: SharedServices
   - name: Workloads
