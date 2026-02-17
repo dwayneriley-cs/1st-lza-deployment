@@ -127,7 +127,7 @@ awsConfig:
         organizationalUnits:
           - Root
       rules:
-        - name: "{{ AcceleratorPrefix }}-accelerator-ec2-instance-profile-permission"
+        - name: "{{ PlatformPrefix }}-accelerator-ec2-instance-profile-permission"
           type: Custom
           description: Custom role to remediate EC2 instance profile permission
           inputParameters:
@@ -149,7 +149,7 @@ awsConfig:
                 - AWS::IAM::Role
           tags:
             - key: Accelerator
-              value: '{{ AcceleratorPrefix }}'
+              value: '{{ PlatformPrefix }}'
           remediation:
             rolePolicyFile: custom-config-rules/ec2-instance-profile-permissions-remediation-role.json
             automatic: true
