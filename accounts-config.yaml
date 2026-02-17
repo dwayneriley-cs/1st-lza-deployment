@@ -1,7 +1,7 @@
 mandatoryAccounts:
   - name: Management
     description: The management (primary) account. Do not change the name field for this mandatory account. Note, the account name key does not need to match the AWS account name.
-    email: dwaynerileycloudscaler+management@gmail.com
+    email: dwaynerileycloudscaler@gmail.com
     organizationalUnit: Root
   - name: LogArchive
     description: The log archive account. Do not change the name field for this mandatory account. Note, the account name key does not need to match the AWS account name.
