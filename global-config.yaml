@@ -229,7 +229,7 @@ reports:
 limits:
   - serviceCode: codebuild
     quotaCode: L-4DDC4A99
-    desiredValue: 10
+    desiredValue: 3000
     deploymentTargets:
       accounts:
         - Management
